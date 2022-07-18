@@ -1,0 +1,69 @@
+.content-wrapper img{
+
+  height: 600px;
+  background-image: url("../../assets/bg1.jpg");
+  background-position: center top;
+  margin-right:10%;
+  margin-left: 55%;
+  width:40%;
+
+
+}
+/*for the text style used from google fonts*/
+.text-wrapper{
+  width: 70%;
+  position: relative;
+   left: 5%;
+  margin-top: -30%;
+}
+.text-wrapper h1{
+
+  text-align:left;
+
+  color: rgb(0, 0, 0);
+  font-size: 4vw;
+  font-family: 'Oswald', cursive;
+}
+.homecontent{
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+}
+.poster{
+
+  position: static;
+
+  height: 600px;
+
+  top: 170%;
+  margin-top: 25%;
+  margin-right:10%;
+  margin-left: 25%;
+  width:80%;
+}
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+
+

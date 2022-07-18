@@ -1,0 +1,22 @@
+<section class="bloodbanks">
+  <div class="container">
+          <h1 class="text-center">Blood Banks in India</h1>
+
+
+    <div class="row mt-5" >
+      <div class="col-lg-3 mb-5" *ngFor="let v of bloodbanks">
+          <div class="box shadow-sm">
+              <img src="{{v.image}}" width="100%">
+              <h4 class="mt-2">{{v.name}}</h4>
+              <p clas="mt-2">{{v.Address}}</p>
+              <button class="btn btn-sm mt-2 btn-outline-danger">Donate Now</button>
+          </div>
+
+      </div>
+  </div>
+
+
+
+  </div>
+
+

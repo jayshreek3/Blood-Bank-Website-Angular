@@ -1,0 +1,14 @@
+.vehicle{
+  background-color: whitesmoke;
+  padding: 50px 100px;
+}
+.box
+{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    transition:1s;
+    justify-content: center;
+}
+.box:hover{
+  transform:scale(1.3)
+}
